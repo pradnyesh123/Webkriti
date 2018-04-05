@@ -1,0 +1,216 @@
+body{
+	background: url('info-back.jpg');
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+#fest-name{
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 110px;
+	color:white;
+	display: inline;
+	padding-left: 50px;
+}
+
+#fest-desc{
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 30px;
+	font-size: 50px;
+	padding-left: 200px;
+	color:black;
+	
+}
+
+.fest{
+padding-top: 120px;
+}
+
+.scroll{
+	/*padding-bottom: : 20px;*/
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    /*bottom: 50%;*/
+    /*top:90%;*/
+    left: 50%;
+    /*cursor: ;*/
+    margin-top: -25px;
+    margin-left: -15px;
+    /*color: white;*/
+}
+.scroll .mouse{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.scroll .wheel{
+    width: 4px;
+    height: 8px;
+    top: 10px;
+    left: 50%;
+    position: absolute;
+    background: white;
+    display: block;
+    border-radius: 100%;
+    margin-left: -2px;
+    animation-name: scroll-wheel;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes scroll-wheel{
+    from{
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+    to{
+        transform: translate3d(0, 10px, 0);
+        opacity: 0;
+    }
+}
+
+
+.abt{
+padding-top: 0px;
+}
+#abt-para:hover{
+	background-color: white;
+	font-color:black;
+	transition: 1s;
+}
+#dates1:hover{
+	background-color: white;
+	font-color:black;
+	transition: 1s;
+}
+#abt-head{
+	font-style: italic;
+    color:white;
+    text-align: center;
+    font-family: 'Engagement', cursive;
+	font-size: 60px;
+}
+
+#abt-para{
+	font-weight: bold;
+    font-size: 40px;
+    font-family: 'Bradley Hand ITC', cursive;
+    font-weight:bold;
+    padding-left: 50px;
+    color: black;
+    text-align: justify;
+}
+
+#dates1{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Bradley Hand ITC', cursive;
+    font-weight:bold;
+    padding-left: 50px;
+    color: black;
+    text-align: justify;
+}
+
+#dates2{
+    font-family: 'Engagement', cursive;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.past{
+	display: inline-block;
+}
+#pic1{
+	display: inline-block;
+	border-radius: 50px;
+}
+
+#pic2{
+	display: inline-block;
+	border-radius: 50px;
+}
+#pic3{
+	display: inline-block;
+	border-radius: 50px;
+}
+#pic4{
+	display: inline-block;
+	border-radius: 50px;
+}
+
+#sponsortitle{
+	font-family: cursive;
+	font-size: 40px;
+	color: white;
+}
+
+#sponsor{
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	color: #1affff;
+}
+
+#imgs{
+	padding-left: 38%;
+}
+#imgs1{
+	padding-left: 36%;
+}
+#imge{
+	padding-left: 24%;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    position: fixed;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+	
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+#bar{
+	position: fixed;
+}
+

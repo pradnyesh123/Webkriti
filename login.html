@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head><title>Login | Infotsav18</title>
+<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+	<div style="text-align:center"><h3 class="heading" id="heading"><u>Log in with your Infotsav'18 account...</u></h3></div>
+<form action="login.php" method="post">
+<div class="reg" onmouseenter="hovereffectin()" onmouseleave="hovereffectout()">
+	<label id="lab">Username:</label>
+	<input type="text" name="user" id="user"  placeholder="Please Enter your username!" required><br>
+	<label id="lab">Password</label>
+	<input type="password" name="pass" id="pass" placeholder="Please Enter your password!" required><br>
+	
+	<input type="submit" name="submit" value="Log in">
+	<label>Forgot Password</label>
+</div>
+</form>
+<script>
+	function hovereffectin(){
+		document.getElementById('heading').style.backgroundColor = "pink";
+	}
+	function hovereffectout(){
+		document.getElementById('heading').style.backgroundColor = "white";
+	}
+</script>
+</body>
+</html>

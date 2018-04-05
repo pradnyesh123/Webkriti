@@ -1,0 +1,135 @@
+body{
+	/*background:url('http://insidehearts.in/images/music3.jpg') */
+	/*background: url('bg.jpg');
+	color: white;*/
+	/*background-color: black;*/
+	margin: 0;
+	color: black;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	line-height: 25px;
+}
+
+.navbar1
+{
+	background-color: #eeeeee;
+	color: black;
+	font-size: 20px;
+	font-family: OCR A Std, monospace;
+	position: fixed;
+	/*font-size: 50px;*/
+	top:0;
+	right:0;
+	left:0;
+	position: fixed;
+	}
+.navbar1 a {
+	margin-left: 15px;
+	text-shadow: 0 2px 1px rgba(0,0,0,0.4);
+        /*display: block;*/
+	text-decoration: unset;
+	transition: color 1s;
+	color: gray;
+}
+.navbar1 a:hover {
+	color: red;
+	font-size: 30px;
+	}
+
+#infotsav{
+	font-size: 40px;
+	text-align: center;
+	color: white ;
+}
+#text{
+	font-family: Arial;
+	background-color: transparent;
+	padding: 10px 10px;
+	font-size: 60px;
+	/*border: 1px solid white;*/
+	/*border-radius: 10px;*/
+	transition: 1s;
+	color:white;
+}
+#text:hover{
+	/*background-color: grey;*/
+	font-size: 40px;
+	color: red;
+	cursor:none;
+}
+.name{
+	padding: 100px 0;
+	background:url('pic4.jpg');
+	height: 430px;
+	font-family: "Bradley Hand ITC",Timws,serif;
+	font-size: 25px;
+	text-align: center;
+	color:white;
+}
+#inst:hover{
+	transition: color 1s;
+}
+#inst:hover{
+font-size: 50px;
+color:blue;
+
+}
+.abt{
+	background: #ff6666;
+	font-family:  Luminari, fantasy;
+	font-size: 30px;
+
+	top=0;
+   height: 60px;
+   width: 90px;
+   /*position: relative;*/
+   /*-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);*/
+   /*box-shadow: 0px 0px 4px rgba(0,0,0,0.55);*/
+   /*-webkit-border-radius: 3px;*/
+   /*-moz-border-radius: 3px;*/
+   border-radius: 3px;
+   /*z-index: 500;  the stack order: foreground */
+   /*margin: n: 3em 0;*/
+   transition: color 1s;
+
+}
+.abt:hover{
+	font-size: 40px;
+	color:blue;
+
+
+}
+
+.desc{
+	padding: 0px 0;
+	background: #00e6e6;
+	border:1px solid black;
+	height:270px;
+color: black;
+	font-family: "Courier New";
+	font-size: 20px;
+	border-radius: 3px;
+	transition: 1s;
+}
+
+.desc:hover{
+	background: #66ff66;
+	font-size: 30px;
+	
+	height:350px;
+	font-family: "Comic Sans MS";
+}
+
+#pic{
+	border: 2px solid red;
+	border-radius: 50%;
+	box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 0.5s;
+}
+#pic:hover{
+	border-color: white;
+	height:230px;
+	width:230px;
+	background:white;
+  outline: 0;
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8));
+}

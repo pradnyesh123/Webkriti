@@ -1,0 +1,179 @@
+body{
+    background:url("logback.png");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.heading{
+    font-family: Arial Narrow, sans-serif;
+    color:black;
+    background-color: white;
+    /*text-align: center;*/
+    left:59%;
+    border-color: black;
+    /*position: fixed;*/
+    border-radius: 10px;
+    display: inline-block;
+    /*padding: 10px;*/
+    /*padding-top: 15px;*/
+font-weight: bold;
+font-size: 280%;
+
+}
+
+.reg{
+    /*background-color: gray;*/
+    border: 2px solid red;
+    border-radius: 5px;
+    /*height:500px;*/
+    /*padding-left: 50px;*/
+    /*color:red;*/
+    /*padding-left:200px;*/
+    left:30%;
+    position: absolute;
+    /*font-style: Courier, Monaco, monospace;*/
+    width:500px;
+}
+
+#lab{
+    color:black;
+    font-weight: bold;
+    font-size: 120%;
+    font-family: Courier, Monaco, monospace;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=Number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.reg {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+    transition:1s;
+}
+.reg:hover {
+    border-radius: 5px;
+    background-color:#f2f2f2 ;
+    padding: 20px;
+    /*transitions:2s;*/
+}
+.event{
+    /*font-size: 90px;*/
+    background:transparent;
+    font-weight: bold;
+    font-size: 20px;
+}
+.submitbtn{
+    font-size: 50px;
+}
+
+}
+
+.form1{
+    display: inline;
+    padding-top: 200px;
+    border: 2px;
+    border-color: blue;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    position: fixed;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}

@@ -1,0 +1,29 @@
+.welcome{
+	background-color: gray;
+	color:blue;
+}
+
+#log{
+	background-color: green;
+	font-family: 'Verdana';
+	font-weight: bold;
+}
+
+#fest-name{
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 110px;
+	color:blue;
+	display: inline;
+	padding-left: 50px;
+}
+
+#fest-desc{
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 30px;
+	font-size: 50px;
+	padding-left: 200px;
+	color:black;
+	
+}

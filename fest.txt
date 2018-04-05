@@ -1,0 +1,5 @@
+home.html
+1.js typewriter
+register(2.html)
+1.array of dates for dob
+2.check for 10 digits mobile no

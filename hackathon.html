@@ -1,0 +1,63 @@
+<html>
+<head>
+<link rel="icon" type="image/png"
+     href="https://iiitm.ac.in/templates/beez5/images/logo_mid.png" />
+	<title>Infotsav'18 | Hackathon</title>
+<link rel="stylesheet" type="text/css" href="hackathon.css">
+</head>
+<body>
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()" id="bar">&#9776; </span>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="info.html">About</a>
+  <a href="2.php">Register</a>
+  <a href="login.php">Login</a>
+  <a href="#">Events</a>
+  <a href="code.html">Coding Wars</a>
+  <a href="hack.html">break The Firewall</a>
+  <a href="hackathon.html">Hackathon</a>
+  <a href="robot.html">RoboWars</a>
+  <a href="speakFight.html">speakFight</a>
+  <a href="contact.html">Contact</a>
+</div>
+	<div id="main">
+	<br><br><br>
+	<div class="heading">
+		<h1 align="center">Hackathon</h1>
+	</div>
+	<br><br><br><br><br><br><br><br><br>
+	<div class="scroll">
+        <div class="mouse">
+                 <div class="wheel"></div>
+        </div>
+   </div>
+<br><br><br><br><br><br>
+<div id="desc">
+		<h3 id="subhead">About...</h3>
+		<p id="subdesc">Let your imagination flow free and enable you to push the boundaries of what can be done. Whack your brain in this 24 hour hackathon where optimization, skill, proficiency, hard work and trying till the very end matters! Leave no excuse to not build something that doesn’t blow our minds!</p>
+	
+	<h3 id="subhead">Rules...</h3>
+	<p id="subdesc">
+		<li id="subdesc">Registration and announcement of the theme.</li>
+		<li id="subdesc">Build a working app on platform you wish in 24 hours.</li>
+		<li id="subdesc">At the end, give a small presentation in front of experts.</li>
+	</p>	
+	<h3 id="subhead">Prizes</h3>
+	<p id="subdesc">Prizes worth upto Rs.60,000/-</p>
+</div>
+</div>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+</body>
+</html>
